@@ -29,3 +29,11 @@ body:
       placeholder: Acest model de subiect a fost rezolvat de catre profesor la cursul 12.
     validations:
       required: false
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Permisiune
+      description: Daca materialul distribuit este aprobat de catre proprietarul drepturilor de autor.
+      options:
+        - label: Am permisiunea sa distribui acest material.
+          required: true
